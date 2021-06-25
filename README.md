@@ -23,7 +23,12 @@ of all the previous topics from this section, including initializing state,
 passing data and callback functions as props, and working with events.
 
 ## Deliverables
-
+APP
+|-Header
+|-ShoppingList
+  |-ItemForm
+  |-Filter
+  |-Item
 ### Filter
 
 In the filter component, there is a new input field for searching our list.
@@ -32,6 +37,7 @@ that only items whose name matches the text are included.
 
 - Determine where you need to add state for this feature. What components need
   to know about the search text?
+  *Items has to know about search text, keep the state in ShoppingList
 
 - Once you've determined which component should hold the state for this feature,
   set up your initial state, and connect that state to the input field.
